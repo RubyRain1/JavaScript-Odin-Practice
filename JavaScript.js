@@ -37,7 +37,16 @@ let str= test2.substr(0,10);
 console.log(str);
 
 let rep = "this is to test school"
+let rep1 = "This is to test school"
 let newText= rep.replace("school", "replace") /* first word is the word wanting to replace, second is the word replacing. */
 
 console.log(rep, newText)
 
+let repAll= rep.replaceAll("this", 12+4);
+console.log(repAll)
+
+let lower= rep1.toLowerCase();
+let upper= rep.toUpperCase();
+
+console.log(lower);
+console.log(upper);
