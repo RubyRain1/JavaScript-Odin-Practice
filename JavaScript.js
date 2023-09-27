@@ -67,3 +67,14 @@ let padS= text1.padStart(15, "h");
 let padE= text1.padEnd(12, "h");
 console.log(padS);
 console.log(padE);
+
+let char= text1.charAt(3);
+let charC= text1.charCodeAt(3);
+
+console.log(char, charC);
+
+let split= "this, is, going, to, split, on, comma";
+
+let splat= split.split(","); /* this makes a string into an array split by comma */
+
+console.log(splat, split);
