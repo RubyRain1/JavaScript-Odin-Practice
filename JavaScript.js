@@ -50,3 +50,20 @@ let upper= rep.toUpperCase();
 
 console.log(lower);
 console.log(upper);
+
+
+let text1= "gaming"
+let text2= "today"
+let text3= text1.concat("", text2);
+
+console.log(text1,text2,text3);
+
+let tTable= "      word      "
+let trim= tTable.trim();
+
+console.log(trim)
+
+let padS= text1.padStart(15, "h");
+let padE= text1.padEnd(12, "h");
+console.log(padS);
+console.log(padE);
