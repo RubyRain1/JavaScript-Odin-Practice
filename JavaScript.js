@@ -78,3 +78,71 @@ let split= "this, is, going, to, split, on, comma";
 let splat= split.split(","); /* this makes a string into an array split by comma */
 
 console.log(splat, split);
+
+const string= "this is going to be a constant";
+
+console.log(string);
+
+const name = "Ruby"; /* we use const here cause my name will never cahnge */
+
+const greeting = `hello, ${name}`; /* using back ticks (``) allows us to embed JS into a string */
+
+console.log(greeting)
+
+let one = "hello, ";
+let two = "how are you?";
+
+const joined = `${one}${two}`;
+
+console.log(joined)
+
+
+/* using alert() brings up an alert window I dont have it right now cause it constantly runs*/
+
+
+let bruh = (0 == false);
+let bleh = (0 === false); /* this is false based on type not actual value  */
+
+console.log(bruh, bleh); /*  this shows the difference between normal and strict equality. */
+
+/* this is going to be conditionals */
+
+let hour = 12; 
+let greeting1;
+let fruits = "Banana";
+/* if statement */
+if (hour >= 10 ){
+   greeting1 = "good morning";
+   console.log(greeting1);
+}
+
+/* else statement */
+if ( hour == 10){ 
+    greeting1 = "good morning";
+    console.log(greeting1);
+} else {
+    greeting1 = "good night"
+    console.log(greeting1);
+}
+
+/* else if statement */
+
+if (hour == 10){
+    greeting1= "good morning"
+    console.log(greeting1)
+} else if(hour == 11){
+    greeting1 = "good day"
+    print(greeting1)
+} else{
+    greeting1 = "good night"
+    console.log(greeting1)
+}
+/* this is a switch statement it goes off cases */
+/* switch(fruits) { 
+    case "Apple":
+        alert("Hello")
+        break;
+    case "Banana":
+        alert("Welcome")
+        break;
+} */
