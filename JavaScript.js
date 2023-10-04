@@ -178,4 +178,56 @@ const remArrayS = multiArray.shift(); /* this removes start variable */
 console.log(multiArray);
 console.log(remArrayS);
 
+const index = multiArray.indexOf("tea")
+
+if (index!== -1){
+    multiArray.splice(index, 1); /* this allows us to remove based off index */
+}
+
+console.log(multiArray) 
+
+for (const mArray of multiArray){ /* this for..of statement helps access all items */
+    console.log(mArray) 
+}
+
+function double(number){
+    return number * 2;
+}
+const numbers = [5,2,7,6];
+const doubled = numbers.map(double); 
+console.log(doubled)
+
+function triple(number){
+    return number * 3 /*  this function is being made to PASS to the map */
+}
+
+const numbers1 = [10,20,30,40]; /*  this is establishing the array */
+const tripled = numbers1.map(triple); /* this takes the array and passes the function to each array item */
+console.log(tripled) /* displays mapped variable */
+
+
+
+function isLong(cities){
+    return cities.length > 9;
+}
+const cities = ["Greensboro", "Charlotte", "Raleigh", "Winston-Salem"]
+const cLength = cities.filter(isLong)
+console.log(cLength)
+
+/* Converting Between strings and arrays */
+
+const splitA = "tree,wrong,right,left,bottom"
+const splitS = splitA.split(",")
+
+console.log(splitS)
+
+console.log(splitS.length, splitS[0], splitS[1], 
+    splitS[splitS.length - 1])
+
+const commaSeparated = splitS.join("|");
+console.log(commaSeparated)
+
+const namesA = ["Rob","Holden","Ruby","jarret"]
+const namesS = namesA.toString();
+console.log(namesS)
 
