@@ -146,3 +146,36 @@ if (hour == 10){
         alert("Welcome")
         break;
 } */
+
+
+let array = ["tree",2,3,4,5,6];
+array[5]= 7;
+
+console.log(array);
+console.log(array.length);
+console.log(array[4]); /* this gets the value at index 4 (value of 5) */
+console.log(array[5]);
+
+const multiArray = [1,2,3,"tea",[9,8,7]];
+multiArray[4][2]; /* the first bracket is the index that the multidimensional array starts. second is position in that array */
+
+console.log(multiArray[4][2]);
+console.log(multiArray.indexOf("tea")) /* will desplay -1 if not in array */
+
+console.log(multiArray)
+multiArray.push("bread","pog") /* this adds to the END of array */
+console.log(multiArray)
+multiArray.unshift("test");
+console.log(multiArray);
+
+const remArrayE = multiArray.pop(); /* pop removes end variable */
+
+console.log(multiArray)
+console.log(remArrayE)
+
+const remArrayS = multiArray.shift(); /* this removes start variable */
+
+console.log(multiArray);
+console.log(remArrayS);
+
+
