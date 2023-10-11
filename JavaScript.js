@@ -231,3 +231,8 @@ const namesA = ["Rob","Holden","Ruby","jarret"]
 const namesS = namesA.toString();
 console.log(namesS)
 
+if (cities.indexOf("Charlotte") == 1){
+    console.log("it works")
+} else{
+    console.log("it no worky")
+}
