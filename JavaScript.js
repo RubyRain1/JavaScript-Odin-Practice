@@ -236,3 +236,37 @@ if (cities.indexOf("Charlotte") == 1){
 } else{
     console.log("it no worky")
 }
+
+/* this will be the switch section */
+
+/* use switch to check multiple cases for a strict equality. */
+
+switch (cities.indexOf("Charlotte") == 2){
+
+    case true :
+        console.log("it games");
+        break;
+    
+    case true && 1: 
+        console.log("it does not game");
+        break;
+    default:
+        console.log("this is just the default")
+}
+
+/* testing logic */
+
+let a = 1;
+let b = 1;
+
+switch(++a){
+    case b+1:
+      console.log("the logic work");
+      break;
+    
+    case b:
+    case b-1: /* this is an example of grouping cases */
+        console.log("yea I get it ");
+        break;
+}
+
