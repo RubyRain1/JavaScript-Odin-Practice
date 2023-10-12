@@ -270,3 +270,12 @@ switch(++a){
         break;
 }
 
+const myArray = ["I", "love", "chocolate", "frogs"];
+const madeAString = myArray.join(" ");   
+console.log(madeAString);
+
+
+const myNumber = Math.random() /* number from 0-1  */
+console.log(myNumber)
+
+
