@@ -279,3 +279,7 @@ const myNumber = Math.random() /* number from 0-1  */
 console.log(myNumber)
 
 
+function text(){
+
+    document.getElementById("bReplace").innerHTML = (" does this work");
+}
