@@ -281,5 +281,5 @@ console.log(myNumber)
 
 function text(){
 
-    document.getElementById("bReplace").innerHTML = (" does this work");
-}
+    document.getElementById("bReplace").innerHTML = (" does this work"); // this is a command to print to screen with JS
+} 
